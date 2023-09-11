@@ -1,0 +1,31 @@
+MDScreen:
+    name: "pre-splash"
+    MDFloatLayout:
+        md_bg_color: 41/255, 135/255, 168/255, 1
+
+
+
+
+Image:
+            source: "/assets/Images/Boiler.png"
+            size_hint: .36, .36
+            pos_hint: {"center_x": .22, "center_y": .8}
+
+            canvas.before:
+                Color:
+                    rgb: 1,1,1,1
+                Ellipse:
+                    size: 130, 130
+                    pos: 110, 250
+
+
+
+        MDLabel:
+            text: "Boiler Room App
+            pos_hint: {"center_x": .8, "center_y": .15}
+            haling: "center"
+            theme_text_color: "Custom"
+            text_color: 1,1,1,1
+            font_size: "20sp"
+            font_name: "OpenSans-Semibold.ttf"
+            pos_hint:{"center_x": .615 , "center_y": .949}
